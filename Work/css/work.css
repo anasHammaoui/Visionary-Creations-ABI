@@ -43,6 +43,7 @@ header .nav-img{
 /* *********************WORK*********** */
 .work{
     padding:70px 70px;
+    background:linear-gradient(-192deg,  #fff, rgb(255, 255, 255) 70%, rgba(106,27,154,1) 91%) ;
 }
 .work-heading {
     padding-bottom: 40px;
