@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+/* ************HOME********* */
+.home {
+    height: 100vh;
+    background:linear-gradient(90deg, rgba(243,229,245,1) 48%, rgba(106,27,154,1) 91%) ;
+
+}
+/* ***********HOME********** */
+.page-home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 70px;
+}
+.home-heading{
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 25px;
+}
+.home-para {
+    margin-bottom: 25px;
+}
+.home-button {
+    text-decoration: none;
+    color: #fff;
+    background-color: #003359;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.home-button:hover {
+    background-color: #095792;
+    transition: .1s ease-in;
+}
+@media (max-width:950px) {
+    .home {
+        height: auto;
+    }
+    .home-img {
+        display: none;
+    }
+}
