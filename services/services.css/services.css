@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
     color: #ffffff;
 }
 
@@ -12,7 +12,7 @@ body {
 .services-section {
     text-align: center;
     padding: 50px 20px;
-    background-color: #ffffff;
+    background:linear-gradient(-192deg,  #fff, rgb(255, 255, 255) 70%, rgba(106,27,154,1) 91%) ;
 }
 
 .section-title {
