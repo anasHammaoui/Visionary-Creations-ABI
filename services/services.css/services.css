@@ -95,11 +95,16 @@ background-color: #ecaad9;
     .services-grid {
         grid-template-columns: repeat(2, 1fr); /* 2 columns on tablets */
     }
+   
+
 }
 
 /* Responsive grid for mobile screens */
 @media (max-width: 480px) {
     .services-grid {
         grid-template-columns: 1fr; /* 1 column on mobile devices */
+    }
+    .services-section{
+        background:linear-gradient(-240deg,  #fff, rgb(255, 255, 255) 70%, rgba(106,27,154,1) 91%) ;
     }
 }
