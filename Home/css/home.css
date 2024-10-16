@@ -36,11 +36,3 @@
     background-color: #095792;
     transition: .1s ease-in;
 }
-@media (max-width:950px) {
-    .home {
-        height: auto;
-    }
-    .home-img {
-        display: none;
-    }
-}
