@@ -119,5 +119,10 @@ header .nav-img{
         width: 100%;
         height: 200px;
     }
+    
 }
-
+@media (max-width : 480px) {
+    .work{
+        background:linear-gradient(-245deg,  #fff, rgb(255, 255, 255) 70%, rgba(106,27,154,1) 91%) ;
+    }
+}
