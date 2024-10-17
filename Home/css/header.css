@@ -27,7 +27,7 @@ header .nav-img{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 300px;
+    width: 400px;
 }
 .nav-bar a {
     text-decoration: none;
