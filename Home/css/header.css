@@ -12,6 +12,9 @@ header{
     align-items: center;
     background:linear-gradient(90deg, rgba(243,229,245,1) 48%, rgba(106,27,154,1) 91%) ;
 }
+   header  .navs{
+    display: none;
+}
 header .nav-img{
     width: 200px;
 }
@@ -53,6 +56,8 @@ header .nav-img{
         top: 22px;
         width: 40px;
         cursor: pointer;
+        display: block;
+        z-index: 7;
     }
 
     header .navs img{
@@ -71,7 +76,7 @@ header .nav-img{
         z-index: 5;
         transform: translateX(-500px);
     }
-    header .navs:hover + .nav-bar{
+    .changed{
         transform: translateX(0px);
         transition: .2s ease-in;
     }
