@@ -144,3 +144,9 @@
         font-size: 14px;
     }
 }
+
+@media (max-width : 480px) {
+    .contact_section{
+        background:linear-gradient(-222deg,  #fff, rgb(255, 255, 255) 70%, rgba(106,27,154,1) 91%) ;
+    }
+}
