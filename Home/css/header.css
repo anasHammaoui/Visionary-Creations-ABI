@@ -74,7 +74,7 @@ header .nav-img{
         justify-content: center;
         height: 100vh;
         z-index: 5;
-        transform: translateX(-500px);
+        transform: translateX(-5000px);
     }
     .changed{
         transform: translateX(0px);
